@@ -43,7 +43,7 @@ input {
 
 export const Product = styled.div `
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   height: 50px;
   background: white;
@@ -54,6 +54,10 @@ export const Product = styled.div `
   p{
     text-transform: capitalize;
     font-weight: bold;
+    margin-right:220px;
+    justify-items:flex-start ;
+
+
 
   }
 
@@ -64,5 +68,15 @@ export const TrashButton = styled.button `
   border: none;
   cursor: pointer;
   font-size: 20px;
+
+`
+
+export const Command = styled.button `
+  background-color: green;
+
+`
+
+
+export const ContainerButton = styled.div `
 
 `
